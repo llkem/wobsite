@@ -1,0 +1,20 @@
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2018-08-13 00:00:14
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2018-08-13 00:00:14 ::1 GET / - 8080 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/68.0.3440.106+Safari/537.36 - 200 0 0 2698
+2018-08-13 00:00:14 ::1 GET /style.css - 8080 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/68.0.3440.106+Safari/537.36 http://localhost:8080/ 200 0 0 20
+2018-08-13 00:00:14 ::1 GET /tennisdog.jpg - 8080 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/68.0.3440.106+Safari/537.36 http://localhost:8080/ 200 0 0 34
+2018-08-13 00:00:25 ::1 GET / aaaaaaaa=dfhg 8080 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/68.0.3440.106+Safari/537.36 http://localhost:8080/ 200 0 0 3
+2018-08-13 00:00:28 ::1 GET / aaaaaaaa=&e=doop 8080 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/68.0.3440.106+Safari/537.36 http://localhost:8080/?aaaaaaaa=dfhg 200 0 0 3
+2018-08-13 00:00:31 ::1 GET / aaaaaaaa=dfg&e=foop 8080 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/68.0.3440.106+Safari/537.36 http://localhost:8080/?aaaaaaaa=&e=doop 200 0 0 3
+2018-08-13 00:00:36 ::1 GET /buttons.html - 8080 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/68.0.3440.106+Safari/537.36 http://localhost:8080/?aaaaaaaa=dfg&e=foop 200 0 0 30
+2018-08-13 00:00:36 ::1 GET /buttons.css - 8080 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/68.0.3440.106+Safari/537.36 http://localhost:8080/buttons.html 200 0 0 22
+2018-08-13 00:00:38 ::1 GET /buttons.html - 8080 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/68.0.3440.106+Safari/537.36 http://localhost:8080/buttons.html 200 0 0 1
+2018-08-13 00:00:50 ::1 GET /buttons.html - 8080 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/68.0.3440.106+Safari/537.36 http://localhost:8080/buttons.html? 304 0 0 1
+2018-08-13 00:00:50 ::1 GET /buttons.html - 8080 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/68.0.3440.106+Safari/537.36 http://localhost:8080/buttons.html? 304 0 0 0
+2018-08-13 00:00:51 ::1 GET /buttons.html - 8080 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/68.0.3440.106+Safari/537.36 http://localhost:8080/buttons.html? 304 0 0 2
+2018-08-13 00:00:51 ::1 GET /buttons.html - 8080 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/68.0.3440.106+Safari/537.36 http://localhost:8080/buttons.html? 304 0 0 0
+2018-08-13 00:00:52 ::1 GET /buttons.html - 8080 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/68.0.3440.106+Safari/537.36 http://localhost:8080/buttons.html? 304 0 0 0
+2018-08-13 00:01:10 ::1 GET /mexicanpresnotes.txt - 8080 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/68.0.3440.106+Safari/537.36 http://localhost:8080/buttons.html 200 0 0 8
+2018-08-13 00:01:12 ::1 GET /fun.html - 8080 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/68.0.3440.106+Safari/537.36 http://localhost:8080/buttons.html 200 0 0 1

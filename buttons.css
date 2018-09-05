@@ -1,0 +1,62 @@
+﻿body {
+    text-align: center;
+    background-color: #8cf5e5;
+}
+/*top navigation bar maybe?*/
+.topcontent {
+    text-align: center;
+    background-color: #000000;
+    overflow: hidden;
+}
+    /*the links themselves*/
+    .topcontent a {
+        float: left;
+        color: white;
+        text-align center;
+        padding: 20px 16px;
+        text-decoration: none;
+        font-family: Verdana;
+        font-size: 16px;
+    }
+
+        .topcontent a:hover {
+            background-color: white;
+            color: black;
+        }
+
+        .topcontent a.active {
+            background-color: 11a10f;
+        }
+
+.title {
+    font-family: Verdana;
+    color: #11a10f;
+    font-size: 40px;
+    border-style: solid;
+    text-align: left;
+    background-color: white;
+}
+#titlebutnotreally{
+    font-family: Verdana;
+    border:solid;
+    background-color: white;
+}
+.backButton{
+    text-align: left !important;
+    font-size: 10px;
+    cursor: pointer;
+}
+.button{
+    background-color: #3c1dbe
+    currentColor: white;
+    padding: 20px 20px;
+    cursor: pointer;
+}
+.button2{
+    background-color: #420fff;
+    border: none;
+    padding:15px 30px;
+    text-align:center;
+    cursor:pointer;
+    color:white;
+}

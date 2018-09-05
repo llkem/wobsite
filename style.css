@@ -1,0 +1,63 @@
+﻿body
+{text-align: center;
+ background-color: #8cf5e5;
+}
+.title{
+    text-align:left;
+    background-color: white;
+}
+#header{
+    margin-bottom:30px;
+}
+/*top navigation bar maybe?*/
+.topcontent{
+    text-align: center;
+    background-color: #000000;
+    overflow: hidden;
+}
+/*the links themselves*/
+.topcontent a {
+    float: left;
+    color: white;
+    text-align center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-family: Verdana;
+    font-size: 16px;
+}
+.topcontent a:hover {
+    background-color: white;
+    color: black;
+}
+.topcontent a.active{
+    background-color:11a10f;
+}
+.title {
+    font-family: Verdana;
+    color: #11a10f;
+    font-size: 40px;
+    border-style: solid;
+}
+}
+.content{
+    text-align:center;
+    color: #11a10f;
+}
+
+.coolbutton{
+    color=red;
+    background-color: #11a10f;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.coolbutton:hover{
+    background-color: #0fa00c
+}
+.bottomContent{
+    border-style:solid;
+    background-color: white;
+}
+.text{
+    height: 50px;
+}
